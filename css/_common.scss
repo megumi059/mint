@@ -1,0 +1,41 @@
+@mixin poly1{
+ width: 3vw;
+ padding-top: 1vw;
+ vertical-align: bottom;
+padding-right: 1%;
+}
+
+@mixin poly2{
+ height: 17px;
+ padding-top: 0vw;
+ vertical-align: bottom;
+padding-right: 1%;
+}
+
+.works a ,
+.contact_2 a,
+.contact a{
+ display: inline-block;
+ font-size:120%;
+ text-decoration:none;
+ position: relative;
+ transition: .3s;
+ padding-bottom: 5px;
+}
+.works a::after , 
+.contact_2 a::after,
+.contact a::after{
+ position: absolute;
+ bottom: 0;
+ left: 0;
+ content: '';
+ width: 0;
+ height: 2px;
+ background-color: white;
+ transition: .3s;
+}
+.works a:hover::after , 
+.contact_2 a:hover::after,
+.contact a:hover::after{
+ width: 100%;
+}
