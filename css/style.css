@@ -202,7 +202,7 @@ header { /* フォーマット clamp(最小値, 推奨値, 最大値) */
     height: auto;
     background: #f3f0ee url(../img/mintkun.png) no-repeat left center;
     background-size: 25% auto;
-    padding: 3% 2% 3% 27%;
+    padding: 1.5% 2% 1.5% 27%;
   }
 }
 @media screen and (max-width: 767px) {
