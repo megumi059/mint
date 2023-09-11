@@ -26,6 +26,10 @@ img {
   word-break: keep-all;
 }
 
+.break-keep {
+  word-break: keep-all;
+}
+
 h2 {
   margin-left: min(5vw, 30px);
   width: max(10vw, 140px);

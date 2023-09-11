@@ -66,6 +66,10 @@ img {
   word-break: keep-all;
 }
 
+.break-keep {
+  word-break: keep-all;
+}
+
 a {
   color: white;
   text-decoration: none;
