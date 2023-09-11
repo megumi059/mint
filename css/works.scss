@@ -1,4 +1,4 @@
-@use "variable" as v;
+@use "variable" as *;
 
 h2 {
  margin-left: min(5vw,30px);
@@ -65,23 +65,6 @@ color: #000;
 padding-bottom: 20px;
 }
 
-.text_s{
- font-size: v.$font-size12;
- line-height: 1.4em;
- word-break: keep-all;
-}
-
-.text_m{
- font-size: v.$font-size14;
- line-height: 1.4em;
- word-break: keep-all;
-}
-.text_l{
- font-size: v.$font-size;
- line-height: 1.4em;
- word-break: keep-all;
-}
-
 .works_others{
  display: flex;
  justify-content: center;
@@ -93,7 +76,7 @@ padding-bottom: 20px;
  color: black;
  text-decoration: none;
  font-weight: normal;
- font-size: clamp(1vw, 0.5vw + 0.5rem, 20px);;
+ font-size: clamp(1rem, 0.8vw + 0.5rem, 18px);
  line-height: 1.5;
  letter-spacing: normal;
  border: none;

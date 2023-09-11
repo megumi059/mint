@@ -12,3 +12,20 @@ ul,li {list-style: none;}
 img {width: 100%;
  display: block;}
  
+
+ .text_s{
+  font-size: $font-size12;
+  line-height: 1.4em;
+  word-break: keep-all;
+ }
+ 
+ .text_m{
+  font-size: $font-size14;
+  line-height: 1.4em;
+  word-break: keep-all;
+ }
+ .text_l{
+  font-size: $font-size;
+  line-height: 1.4em;
+  word-break: keep-all;
+ }
