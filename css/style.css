@@ -193,7 +193,7 @@ header { /* フォーマット clamp(最小値, 推奨値, 最大値) */
 /* プロフィール */
 #profile {
   width: 100%;
-  line-height: 1.5;
+  line-height: 1.4;
   font-size: 14px;
 }
 @media screen and (min-width: 768px) {

@@ -96,7 +96,6 @@ article {
 
 .works_site img {
   width: 150px;
-  /*width: min(15vw, 150px);*/
   padding-bottom: 20px;
 }
 
