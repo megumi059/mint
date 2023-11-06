@@ -91,13 +91,15 @@ padding-bottom: 20px;
 
 .btn_01 {
 	display: block;
+	border-radius:10px;
 	text-align: center;
 	vertical-align: middle;
 	text-decoration: none;
-	width: 90%;
+	width: 100%;
 	margin: auto;
 	padding: 0.2rem 1rem;
 	font-weight: normal;
+	font-size: 0.9em;
 	background: linear-gradient(to top, rgb(5, 130, 174), #27acd9);
 	color: #fff;
 	box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
