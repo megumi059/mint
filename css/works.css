@@ -164,21 +164,27 @@ article {
   margin-bottom: 1em;
 }
 
+.cap_img {
+  width: 97%;
+}
+
 .cap_img1 {
   width: 40%;
   margin: auto;
-}
-
-.cap_img {
-  width: 97%;
 }
 
 .cap_img2 {
   width: 60%;
 }
 
-.cap_img1_mini {
+.cap_img3 {
   width: 60%;
+  width: 30%;
+  margin: auto;
+}
+
+.cap_img_mini {
+  width: 20%;
   margin: auto;
   border-style: solid;
   border-color: #E1E1E1;
@@ -186,8 +192,18 @@ article {
 }
 
 .kako_box {
-  margin: auto;
   width: 50%;
-  display: flex;
-  justify-content: flex-start;
+  float: left;
+}
+
+.kako_box3 {
+  width: 30%;
+  float: left;
+  border: #000 solid;
+}
+
+.caption_r {
+  display: block;
+  text-align: center;
+  padding-bottom: 0.5em;
 }/*# sourceMappingURL=works.css.map */
