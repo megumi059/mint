@@ -1,5 +1,9 @@
 @use "variable" as *;
 
+img {
+image-rendering: -webkit-optimize-contrast;
+}
+
 h2 {
  margin-left: min(5vw,30px);
  width: max(10vw, 140px);
@@ -123,7 +127,17 @@ padding-bottom: 20px;
 
 .kako_bg{
 	background-color: #fff;
-	width: 96%;
+	width: 99%;
+	padding: 1vw 0vw 1vw 1vw;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+	margin-bottom: 1em;
+}
+
+.kako_bg3{
+	background-color: #fff;
+	width: 98%;
 	padding: 1vw 0.5vw 1vw 1vw;
 	display: flex;
 	justify-content: space-around;
@@ -131,25 +145,36 @@ padding-bottom: 20px;
 	margin-bottom: 1em;
 }
 
+
 .cap_img{
-	width: 97%;
-	}
+width: 97%;
+}
 .cap_img1{
 width: 40%;
 margin: auto;
 }
 
-	.cap_img2{
-		width: 60%;
-		}
+.cap_img2{
+width: 60%;
+}
 
-		.cap_img3{
-			width: 60%;
-			width: 30%;
-			margin: auto;
-			}
+.cap_img3{
+width: 60%;
+margin: auto;
+}
 
-		.cap_img_mini{
+.cap_img4{
+width: 80%;
+margin: auto;
+}
+
+.cap_img5{
+width: 30%;
+margin: auto;
+}
+
+		
+				.cap_img_mini{
 			width: 20%;
 			margin: auto;
 			border-style: solid;
@@ -162,6 +187,10 @@ margin: auto;
 width: 50%;
 float: left;
 }
+.kako_box1{
+	width: 100%;
+	float: left;
+	}
 
 .kako_box3{
 width: 30%;

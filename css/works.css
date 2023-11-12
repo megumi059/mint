@@ -30,6 +30,10 @@ img {
   word-break: keep-all;
 }
 
+img {
+  image-rendering: -webkit-optimize-contrast;
+}
+
 h2 {
   margin-left: min(5vw, 30px);
   width: max(10vw, 140px);
@@ -156,7 +160,17 @@ article {
 
 .kako_bg {
   background-color: #fff;
-  width: 96%;
+  width: 99%;
+  padding: 1vw 0vw 1vw 1vw;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  margin-bottom: 1em;
+}
+
+.kako_bg3 {
+  background-color: #fff;
+  width: 98%;
   padding: 1vw 0.5vw 1vw 1vw;
   display: flex;
   justify-content: space-around;
@@ -179,6 +193,15 @@ article {
 
 .cap_img3 {
   width: 60%;
+  margin: auto;
+}
+
+.cap_img4 {
+  width: 80%;
+  margin: auto;
+}
+
+.cap_img5 {
   width: 30%;
   margin: auto;
 }
@@ -193,6 +216,11 @@ article {
 
 .kako_box {
   width: 50%;
+  float: left;
+}
+
+.kako_box1 {
+  width: 100%;
   float: left;
 }
 
