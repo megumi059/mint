@@ -110,7 +110,7 @@ header{/* フォーマット clamp(最小値, 推奨値, 最大値) */
 /* プロフィール */
 #profile{
   width: 100%;
-  line-height: 1.4;
+  line-height: 1.6;
   font-size: 14px;
 
   @include m.mq(tab) {

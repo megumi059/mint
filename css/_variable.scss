@@ -1,5 +1,7 @@
 
 $font-size: 16px;
+$font-size18: 18px; 
+$font-size16: 16px; 
 $font-size14: 14px; 
 $font-size12: 12px; 
 $line-height: 1.5;
@@ -14,7 +16,7 @@ img {width: 100%;
  
 
  .text_s{
-  font-size: $font-size12;
+  font-size: $font-size14;
   line-height: 1.4em;
   word-break: keep-all;
  }
@@ -25,11 +27,19 @@ img {width: 100%;
   word-break: keep-all;
  }
  .text_l{
-  font-size: $font-size;
+  font-size: $font-size18;
   line-height: 1.4em;
   word-break: keep-all;
  }
 
  .break-keep {
   word-break: keep-all;
+}
+
+.text_bold {
+  font-weight: bold;
+}
+
+.l_h {
+  line-height: 1vh;
 }

@@ -9,7 +9,7 @@ img {
 }
 
 .text_s {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.4em;
   word-break: keep-all;
 }
@@ -21,13 +21,21 @@ img {
 }
 
 .text_l {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.4em;
   word-break: keep-all;
 }
 
 .break-keep {
   word-break: keep-all;
+}
+
+.text_bold {
+  font-weight: bold;
+}
+
+.l_h {
+  line-height: 1vh;
 }
 
 img {
@@ -67,6 +75,11 @@ section {
   padding: 1.5rem;
   color: #000;
 }
+@media screen and (max-width: 430px) {
+  section {
+    padding: 0.5rem;
+  }
+}
 
 article {
   margin: 0;
@@ -101,7 +114,6 @@ article {
 
 .works_site img {
   width: 150px;
-  padding-bottom: 20px;
 }
 
 .works_others {
@@ -131,9 +143,8 @@ article {
   display: block;
   border-radius: 10px;
   text-align: center;
-  vertical-align: middle;
   text-decoration: none;
-  width: 100%;
+  width: 50%;
   margin: auto;
   padding: 0.2rem 1rem;
   font-weight: normal;
@@ -148,6 +159,23 @@ article {
 .btn_01:hover {
   color: #fff;
   opacity: 0.5;
+}
+
+.btn_03 {
+  width: auto;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0.5rem auto;
+  padding: 0.2rem 1rem;
+  font-weight: normal;
+  font-size: 0.9em;
+  background: linear-gradient(to top, rgb(5, 130, 174), #27acd9);
+  color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+  flex-wrap: wrap;
 }
 
 .capture {
@@ -183,6 +211,17 @@ article {
   justify-content: space-around;
   flex-wrap: nowrap;
   margin-bottom: 1em;
+}
+
+.kako_bg4 {
+  background-color: #fff;
+  width: 98%;
+  padding: 1vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+  align-items: center;
 }
 
 .kako_bg1 {
@@ -222,6 +261,10 @@ article {
 .cap_img5 {
   width: 30%;
   margin: auto;
+}
+
+.cap_img_gra {
+  padding: 5px;
 }
 
 .cap_img_mini {
