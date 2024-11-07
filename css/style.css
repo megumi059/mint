@@ -99,7 +99,7 @@ body {
 h1 {
   margin: 0 auto 0 auto;
   width: min(50vw, 260px);
-  padding: min(10vw, 90px) 0 min(9vw, 80px);
+  padding: min(8vw, 80px) 0 min(7vw, 60px);
 }
 
 #wrapper {
