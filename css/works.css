@@ -67,7 +67,7 @@ ul {
 }
 
 .poly3 {
-  width: 15px;
+  width: 20px;
   margin-right: 10%;
 }
 
@@ -216,7 +216,6 @@ article {
 
 .kako_bg4 {
   background-color: #fff;
-  width: 98%;
   padding: 1vw;
   display: flex;
   justify-content: center;
