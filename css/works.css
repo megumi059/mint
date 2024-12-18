@@ -123,6 +123,17 @@ article {
   margin: auto;
 }
 
+.works_others_2 {
+  padding-right: 1vw;
+}
+@media screen and (max-width: 500px) {
+  .works_others_2 {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+}
+
 /* ボタン */
 .reset {
   color: black;
@@ -236,6 +247,16 @@ article {
   padding: 1vw;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1em;
+  align-items: center;
+}
+
+.kako_bg5 {
+  background-color: #fff;
+  padding: 1vw;
+  display: flex;
+  justify-content: right;
   flex-wrap: wrap;
   margin-bottom: 1em;
   align-items: center;

@@ -81,6 +81,16 @@ color: #000;
  margin: auto;
 }
 
+.works_others_2{
+ padding-right: 1vw;
+	@media screen and (max-width: 500px) {
+		 display: flex;
+			justify-content: center;
+			margin: auto;
+	}
+}
+
+
 /* ボタン */
 .reset {
  color: black;
@@ -198,6 +208,17 @@ color: #000;
 	padding: 1vw;
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 1em;
+	align-items: center;
+}
+
+.kako_bg5{
+	background-color: #fff;
+	// width: 98%;
+	padding: 1vw;
+	display: flex;
+	justify-content: right;
 	flex-wrap: wrap;
 	margin-bottom: 1em;
 	align-items: center;
