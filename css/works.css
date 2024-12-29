@@ -11,7 +11,7 @@ img {
 .text_s {
   font-size: 14px;
   line-height: 1.4em;
-  word-break: keep-all;
+  white-space: pre-line;
 }
 
 .text_s_2 {
@@ -22,17 +22,11 @@ img {
 .text_m {
   font-size: 14px;
   line-height: 1.4em;
-  word-break: keep-all;
 }
 
 .text_l {
   font-size: 18px;
   line-height: 1.4em;
-  word-break: keep-all;
-}
-
-.break-keep {
-  word-break: keep-all;
 }
 
 .text_bold {

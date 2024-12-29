@@ -24,7 +24,7 @@ body {
 h1 {
   margin: $magin-auto;
   width: min(50vw, 260px);
-  padding: min(8vw,80px) 0 min(7vw,60px);
+  padding: min(8vw,80px) 0 min(4vw,60px);
 }
 
 
@@ -41,6 +41,14 @@ header{/* フォーマット clamp(最小値, 推奨値, 最大値) */
   background: #f3f0ee;
   display: flex;
   justify-content: space-between;
+}
+
+h4{
+  display: flex;
+  justify-content: center;
+  background: #f3f0ee;
+  margin: 0;
+  color: #000000;
 }
 
 #outline{
