@@ -1,0 +1,256 @@
+.mark_mv{
+ padding: auto;
+ // border: 2px solid #000;
+ background: url(../img/mark_mv.jpg) no-repeat 0 0 / cover;
+ background-color:rgba(0, 0, 0, 0.2);
+ background-blend-mode:darken;
+ width: 100%;
+ padding-top: 20%;
+padding-bottom: 16%;
+}
+
+
+
+
+// .wrapper {
+//   padding: 200px 0;
+//   background-color: #f2f2f2;
+// }
+.content {
+  width: 50%;
+  margin: auto;
+  // padding: 120px 80px;
+  // background-color: #fff;
+  // box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  // font-size: 18px;
+  // font-family: '游明朝','Yu Mincho',YuMincho,'Hiragino Mincho Pro',serif;
+  text-align: center;
+  opacity: 0;
+}
+.content.inview {
+  animation-name: fade-in;
+  animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .4s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+@keyframes fade-in {
+ 0% {
+  transform: translateY(30px);
+  opacity: 0;
+}
+80% {
+  opacity: 1;
+}
+100% {
+  opacity: 1;
+  transform: translateY(0);
+}
+  // 0% {
+  //   transform: translateY(40px);
+  // }
+  // 100% {
+  //   transform: translateY(0px);
+  //   opacity: 1;
+  // }
+}
+
+.mark_1{
+ width: 50%;
+ padding: auto;
+ margin: 3vh auto;
+ background-color: #000;
+
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // color: #333333;
+  // background-color: #dddddd;
+  // font-size: 30px;
+  // width: 300px;
+  // height: 100px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px 5px rgba(255, 250, 119, 0.7);
+
+}
+
+
+// para
+.para{
+ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+ 
+
+ 
+ .para_cont_box {
+  // border: 5px double #0077ff;
+  height: 50vw;
+  margin: 100px auto 10px;
+  overflow: hidden;
+  width: 80%;
+ }
+ 
+ .thumbnail {
+  width: 100%;
+ }
+ 
+ }
+
+
+// フェードイン
+.scroll-space{
+ box-sizing: border-box;
+ // padding-top: 300px;
+ // height: 1600px;
+ color: #fff;
+ overflow: hidden;
+ .blue{
+   background: #77BBCF;
+   width: 200px;
+   height: 200px;
+   padding: 30px;
+   margin: 0 auto 50px;
+ }
+ .pink{
+   background: #FFB4B4;
+   width: 200px;
+   height: 200px;
+   padding: 30px;
+   margin: 0 auto 50px;
+ }
+ .yellow{
+   background: #F8913C;
+   width: 200px;
+   height: 200px;
+   padding: 30px;
+   margin: 0 auto 50px;
+ }
+ .green{
+   // background: #26AA5A;
+   // width: 200px;
+   // height: 200px;
+   // padding: 30px;
+   margin: 0 auto 50px;
+ }
+}
+.fadein {
+   opacity: 0;
+   transform: translate(0,0);
+   transition: all 0.7s;
+ &.fadein-left{
+     transform: translate(-30px,0);
+ }
+ &.fadein-right{
+     transform: translate(30px,0);
+ }
+ &.fadein-up{
+     transform: translate(0,-30px);
+ }
+ &.fadein-bottom{
+     transform: translate(0,30px);
+ }
+ &.scrollin{
+   opacity: 1 !important;
+   transform: translate(0, 0) !important;
+ }
+}
+
+// スライドイン
+.scroll-space_slidein{
+ box-sizing: border-box;
+ // padding-top: 300px;
+ // height: 1600px;
+ color: #fff;
+ 
+
+ .pink{
+   // background: #FFB4B4;
+   width: 50%;
+   // width: calc(97% / 3);
+   // height: 200px;
+   // padding: 30px;
+   // margin: 0 auto 50px;
+   display: flex;
+
+   img{
+    padding: 0.2vh;
+   }
+ }
+}
+.slidein {
+   opacity: 0;
+   transform: translate(0,0);
+   transition: all 1.0s;
+ &.slidein-left{
+     transform: translate(-100%,0);
+ }
+ &.slidein-right{
+     transform: translate(100%,0);
+ }
+ &.slidein-up{
+     transform: translate(0,-100%);
+ }
+ &.slidein-bottom{
+     transform: translate(0,100%);
+ }
+ &.scrollin{
+   transform: translate(0, 0)!important;
+   opacity: 1!important;
+ }
+}
+
+
+
+// 
+.mark_r_box{
+ // display: flex;
+ // justify-content: space-between;
+ // align-items: center;
+ color: #000;
+
+ .left_cont{
+  padding-bottom: 1vh;
+  // background-color: #FFB4B4;
+  white-space: nowrap;
+ }
+ .right_cont{
+  // padding: 1vh;
+  width: 100%;
+  // float: right;
+  // background-color: #3986b3;
+ }
+}
+
+
+
+// 
+// .anim-box {
+//  background: linear-gradient(to right, #362ae0 0%,#3b79cc 50%,#42d3ed 100%);
+//  border-radius: 5px;
+//  max-width: 400px;
+//  height: 250px;
+// }
+
+ 
+// .anim-box.fadeup.is-animated {
+//  animation: fadeup 1s cubic-bezier(0.33, 1, 0.68, 1) forwards;
+// }
+
+// @keyframes fadeup {
+//  0% {
+//    transform: translateY(30px);
+//    opacity: 0;
+//  }
+//  80% {
+//    opacity: 1;
+//  }
+//  100% {
+//    opacity: 1;
+//    transform: translateY(0);
+//  }
+// }
