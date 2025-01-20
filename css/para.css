@@ -193,13 +193,14 @@ CSS #page-top {
   z-index: 99;
 }
 #page-top img {
-  width: 4vh;
+  width: 3vh;
   margin: auto;
 }
 
 #page-top a {
   background: #60dab1;
-  padding: 2vh;
+  width: 100%;
+  padding: 1.5vh;
   display: block;
   border-radius: 90px;
   opacity: 0.9;
